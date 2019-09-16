@@ -9,8 +9,29 @@ body {
     color: black;
     max-width: 900px;
     margin: 0 auto;
-    <img src="Images/pf%20pic.jpg" width="50%" style="float:left">
+   
 } 
+
+.clear-float{
+    clear:both;}
+
+article img {
+    float:left;
+    padding-right:10px;
+}
+
+.right-content {
+    border: 1px solid blue;
+    float:right;
+}
+
+article {
+    margin-bottom: 16px;
+    padding:0px;
+    border:1px solid red;
+    
+}
+
 header, footer {
     background-image:url(https://alohaandhelloblog.files.wordpress.com/2017/06/watercolour-blog-header-turquoise.jpg?w=1024&h=390&crop=1); 
     background-size:cover;
