@@ -3,7 +3,7 @@ Date created: 9/16/19
 Last modified: 9/16/19
 */
 body {
-    background-image: url(http://www.blog.kedairohani.com/foto_berita/83Kangsa-Solo-01.jpg)
+    background-image: url(http://www.blog.kedairohani.com/foto_berita/83Kangsa-Solo-01.jpg);
   /*  background align-content: center;  */
     background-attachment: fixed;
     background-position:left;
@@ -16,7 +16,7 @@ body {
    } 
 
 #left-content {
-   background-color: rgba(255, 255, 255, 0.7);
+   background-color: rgba(100, 80, 100, 0.5);
     
     
 }
