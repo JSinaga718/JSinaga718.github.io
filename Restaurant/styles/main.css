@@ -1,0 +1,38 @@
+/* Creator: Jedika Sinaga
+Date created: 9/16/19
+Last modified: 9/16/19
+*/
+
+
+
+
+
+
+body {
+    background-image:url(http://www.blog.kedairohani.com/foto_berita/83Kangsa-Solo-01.jpg);
+
+   background-attachment: fixed;
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: sans-serif;
+    color: black;
+    max-width: 900px;
+    margin: 0 auto; 
+   } 
+
+#left-content {
+   background-color: rgba(100, 80, 100, 0.5);
+    
+    
+}
+header,footer, jumbotron {
+    background-color: rgba(0,0,0,0.7) !important;
+    font-family: 'Shadows Into Light', cursive;
+}
+.nav links{
+    background-color: white;
+}
+
+
+

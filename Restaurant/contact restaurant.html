@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- Jedika created: 9/10/2019 modified: 9/10/2019-->
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link href="styles/main.css" rel="stylesheet" type="text/css" />
+    
+    <title>Contact Us</title>
+    </head>
+
+    <header>
+        <h1>Contact Us</h1></header>
+
+<hr/>
+    <body>
+
+        <nav><p>
+            <a href="Home restaurant.html" target="_blank">Home</a>
+            <a href="menu restaurant.html" target="_blank">Menu</a>
+            <a href="contact restaurant.html" target="_blank">Contact Us</a>
+            </p></nav>
+<hr/>
+        <section>
+            <article id="rsvp">
+            <h2><em>Reservations</em></h2>
+        <form action="submit.html" method="post">
+                <label for="firstName">First Name: </label><br/>
+                <input type="text" id="firstName"name="firstName"><br/>
+                <label for="lastName">Last Name:</label><br/>
+                <input type="text" id="lastName"name="lastName"><br/>
+                <label for="phone">Phone Number:</label><br/>
+                <input type="text" id="phone" name="phone"><br/>
+                <label for="contact">Time:</label><br/>
+                <select id="contact" name="contact">
+                <option value="default" selected>--
+                Select One--</option>
+                <option value="4pm">4 PM</option>
+                <option value="430pm">4:30 PM</option>
+                <option value="5pm">5 PM</option>
+                <option value="530pm">5:30 PM</option>
+                <option value="6pm">6 PM</option>
+                <option value="630pm">6:30 PM</option>
+                    <option value="7pm">7 PM</option>
+                    <option value="730pm">7:30 PM</option>
+                    <option value="8pm">8 PM</option>
+                    <option value="830pm">8:30 PM</option>
+                    <option value="9pm">90PM</option>
+                    <option value="930pm">9:30 PM</option>
+                     <option value="10pm">10 PM</option>
+                     <option value="1030pm">10:30 PM</option>
+                     <option value="11pm">11 PM</option>
+                    
+                </select>
+            <fieldset>
+                <legend> I am interested in (check all that apply)</legend><br/>
+                <input type="checkbox" id="frontEnd"name="interest"value="frontEnd">
+                <label for="frontEnd">Front End Web Development
+                </label><br/>
+                <input type="checkbox"id="backEnd"name="interest"value="backEnd">
+                <label for="backEnd">Back End Development</label>
+                <input type="checkbox"id="database"name="interest"value="database">
+                <label for="database">Database Design</label><br/>
+            </fieldset>
+            <fieldset>
+                <legend>I have filled in the client questionnaire form:</legend><br/>
+                <input type="radio" id="choice1" name="questionnaie" value="yes">
+                <label for="choice1">Yes</label><br/>
+                <input type="radio" id="choice2" name="questionnaire" value="no">
+                <label for="choice2">No</label><br/>
+            </fieldset>
+            <label for="info">Additional Information</label><br/>
+            <textarea id="info" name="info"></textarea>
+                <input type="submit" name="submit"Value="Submit">
+
+
+
+            </form>
+
+
+</article>
+</section>
+
+<footer>
+    <hr/>
+    <p>&copy; 2019 Jedika Sinaga. All rights reserved.</p>
+    </footer>
+    </body>
+</html>
