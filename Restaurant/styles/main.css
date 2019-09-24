@@ -18,7 +18,7 @@ body {
    } 
 
 #left-content {
-   background-color: rgba(0,0,0,0.3);
+   background-color: rgba(0,0,0,0.5);
     text-align:center;
     padding:20px;
     margin: 35px;
@@ -27,7 +27,7 @@ body {
 }
 
 header, footer, .jumbotron { 
-    background-color: rgba(0,0,0,0.3)!important;
+    background-color: rgba(0,0,0,0.5)!important;
     color:floralwhite;
     font-family: 'Shadows Into Light', cursive;
     text-align: center;
@@ -43,4 +43,9 @@ header, footer, .jumbotron {
 
 #menuTable{
   background-color: rgba(0,0,0,0.3);
+}
+
+#text{
+    text-align: right;
+    padding:20px;
 }
