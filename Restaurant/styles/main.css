@@ -11,15 +11,17 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     font-family: sans-serif;
+    background-color: #FAFAFA;
     color: black;
     max-width: 100%;
-    margin: 0 auto; 
+    margin: 35px; 
    } 
 
 #left-content {
    background-color: rgba(0,0,0,0.3);
     text-align:center;
     padding:20px;
+    margin: 35px;
     
     
 }
@@ -28,11 +30,17 @@ header, footer, .jumbotron {
     background-color: rgba(0,0,0,0.3)!important;
     color:floralwhite;
     font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 1.3em;
+    margin: 35px;
 }
 
-.nav links{
-    color:floralwhite;
+.nav{
+    color:floralwhite;;
+    font-size: 1em;
 }
 
 
-
+#menuTable{
+  background-color: rgba(0,0,0,0.3);
+}
