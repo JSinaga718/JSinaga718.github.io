@@ -2,16 +2,27 @@
 <!-- Jedika created: 9/11/2019 last modified: 9/11/2019-->
 <html lang="en">
     
- <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
         
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
     <link href="styles/main.css" rel="stylesheet" type="text/css" />
 
     
-<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <title>Menu</title>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<title>
+    Menu
+    </title>
+   
+    
     </head>
     
 <style>
@@ -21,13 +32,13 @@
             margin-bottom: 8px;
         }
         table, th, td {
-            border:1px solid #ABD8D6;
+            
             border-collapse: collapse;
             padding: 5px 10px 10px;
         }
         
         table {
-        width:60%;
+        width:80%;
         margin:auto;
         }
         
@@ -42,51 +53,74 @@
         tr:nth-child(odd){
             background-color: dimgray;
         }
-    </style>
+</style>
     
+    <body>
+        <header class="jumbotron">
+
+        <h1>
+            <center>Menu</center>
+            </h1>
     
-<header class="jumbotron">
-    <h1>Menu</h1>
-           <nav><p>
-            <a href="Home restaurant.html">Home</a>
-            <a href="menu restaurant.html">Menu</a>
-            <a href="contact restaurant.html">Contact Us</a>
-            </p></nav>
+        <div class="container5">
+            <ul class="nav nav-pills nav-justified">
+           <li class="active">
+               <a href="Home restaurant.html"><button class="btn"><i class="fa fa-home"></i></button>
+               </a>
+            </li>
+            <li> 
+                <a href="menu restaurant.html"><button class="btn"><i class="fa fa-glass"></i></button></a>
+            </li>
+            <li>
+            <a href="contact restaurant.html"><button class="btn"><i class="fa fa-book"></i></button></a>
+            </li>
+            </ul>
+            </div>
+            
+            <marquee>     NEW LOCATION COMING SOON! </marquee>
+
     </header>
 
-<hr/>
-    
-    
-    
-<body style=margin:35px> 
-    <div>
+
+        
     <table id="menuTable">
-    <tr><th>Protien</th><th>Vegetables</th><th>Sides</th><th>Dessert</th>
+    <tr>
+        <th>Protien</th>
+        <th>Vegetables</th>
+        <th>Sides</th>
+        <th>Dessert</th>
+        <th>Beverages</th>
     </tr>
         
         <tr>
-            <td>   <div class="btn btn-primary dropdown-toggle zoom" data-toggle="dropdown">
-                <dt>Ayam Soto</dt><dd><li>Freshly shredded chicken soup</li></dd>
-                      <img src="Images/ayam.jpg" width="200px">    </div>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item">chicken soup </a></div>
+            <td> <div class="btn btn-primary dropdown-toggle zoom" data-toggle="dropdown" >
+                <dt>Ayam Soto</dt>
+                    <dd><li>Freshly shredded chicken soup</li></dd>
+                      <img src="Images/ayam.jpg" width="200px" class="img-fluid" alt="Responsive image"> </div>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item"> chicken soup </a>
+                                </div>
             </td>
            
             
             
             
             <td> <div class="btn btn-primary dropdown-toggle zoom" data-toggle="dropdown">
-               <dt>Daun Ubi</dt><dd><li>Sauteed kale</li></dd>
-                <img src="Images/ubi.jpg" width="200px">
-               </div>
-    <div class="dropdown-menu">
-                    <a class="dropdown-item">mad good </a></div>
+               <dt>Daun Ubi</dt>
+                    <dd><li>Sauteed kale</li></dd>
+                    <img src="Images/ubi.jpg" width="200px" class="img-fluid" alt="Responsive image">
+                        </div>
+                            <div class="dropdown-menu" "col-lg-10">
+                                <a class="dropdown-item">mad good</a>
+                                    </div>
             
             
             </td>
-            <td><div class="btn btn-primary dropdown-toggle zoom" data-toggle="dropdown">
-                <dt>Perkedel</dt><dd><li>Fried potatoe patties</li></dd>
-                <img src="Images/potatoe.jpg" width="200px">
+            <td>
+                <div class="btn btn-primary dropdown-toggle zoom"data-toggle="dropdown">
+                <dt>Perkedel</dt>
+                    <dd><li>Fried potatoe patties</li></dd>
+                <img src="Images/potatoe.jpg" width="200px" class="img-fluid" alt="Responsive image">
                 <div class="dropdown-menu">
                     <a class="dropdown-item">like hashbrowns </a></div>
                 
@@ -95,55 +129,116 @@
                 
                 </td>
             <td><div class="btn btn-primary dropdown-toggle zoom" data-toggle="dropdown">
-                <dt>Lupis</dt><dd><li>Sweet sticky rice with shredded coconut</li></dd>
-                <img src="Images/lupis.jpg" width="200px">
+                <dt>Lupis</dt>
+                <dd><li>Sweet sticky rice with shredded coconut</li></dd>
+                <img src="Images/lupis.jpg" width="200px" class="img-fluid" alt="Responsive image">
                   <div class="dropdown-menu">
                     <a class="dropdown-item">mad good </a></div>
                 
                 </div>
                 </td>
+            
+            <td><div class="btn btn-primary dropdown-toggle zoom" data-toggle="dropdown">
+                <dt>Teh Botol</dt>
+                <dd><li>Jasmine Iced Tea</li></dd>
+                <img src="Images/teh.jpg" width="200px" class="img-fluid" alt="Responsive image">
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item">mad good </a></div>
+                
+                </div>
+                </td>
+            
+            
         </tr>
         
         <tr>
-            <td><div class="btn btn-primary dropdown-toggle zoom" data-toggle="dropdown">
+            <td>
+                <div class="btn btn-primary dropdown-toggle zoom" data-toggle="dropdown">
                 <dt>Rendang</dt><dd><li>Coconut beef stew</li></dd>
-                <img src="Images/beef.jpg" width="200px">
+                <img src="Images/beef.jpg" width="200px" class="img-fluid" alt="Responsive image">
                 <div class="dropdown-menu">
                     <a class="dropdown-item">mad good </a></div>
                 
                 </div>
                 
-                
                 </td>
             <td><div class="btn btn-primary dropdown-toggle zoom" data-toggle="dropdown">
-                <dt>Kangkung</dt><dd><li>Water spinach</li></dd>
-                <img src="Images/kangkung.jpeg" width="200px">
+                <dt>Kangkung</dt>
+                <dd><li>Water spinach</li></dd>
+                <img src="Images/kangkung.jpeg" width="200px" class="img-fluid" alt="Responsive image">
                   <div class="dropdown-menu">
                       <a class="dropdown-item">mad good </a></div></div>
                 
                 </td>
             <td><div class="btn btn-primary dropdown-toggle zoom" data-toggle="dropdown">
                 <dt>Pisang goreng</dt><dd><li>Plantain</li></dd>
-                <img src="Images/banana.jpeg" width="200px">
+                <img src="Images/banana.jpeg" width="200px" class="img-fluid" alt="Responsive image">
                  <div class="dropdown-menu">
                       <a class="dropdown-item">mad good </a></div></div>
                 </td>
+            <td>
+            </td>
+            
+            <td>
+                <div class="btn btn-primary dropdown-toggle zoom" data-toggle="dropdown">
+                <dt>Beer</dt>
+                <dd><li>Indonesian Pilsner</li></dd>
+                <img src="Images/beer.jpg" width="200px" class="img-fluid" alt="Responsive image">
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item">mad good </a></div>
+                </div>
+            </td>
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
         </tr>
         
         <tr>
        <td><div class="btn btn-primary dropdown-toggle zoom" data-toggle="dropdown">
-           <dt>Ikan gule</dt><dd><li>Fish Curry</li></dd>
-           <img src="Images/ikan.jpg" width="200px">
+           <dt>Ikan gule</dt>   
+           <dd><li>Fish Curry</li></dd>
+           <img src="Images/ikan.jpg" width="200px" class="img-fluid" alt="Responsive image">
             <div class="dropdown-menu">
-                      <a class="dropdown-item">mad good </a></div></div>
+                      <a class="dropdown-item">mad good </a></div>
+           </div>
            
            
            </td> 
+            
+            <td>
+            </td>
+            
+            <td>
+            </td>
+            
+            <td>
+            </td>
+            
+            <td> <div class="btn btn-primary dropdown-toggle zoom" data-toggle="dropdown">
+           <dt>Markisa</dt>   
+           <dd><li>Passion Fruit drink</li></dd>
+           <img src="Images/markisa.jpg" width="200px" class="img-fluid" alt="Responsive image">
+            <div class="dropdown-menu">
+                      <a class="dropdown-item">mad good</a></div>
+           </div>
+           
+           
+          
+            </td>
         
         </tr>
             
     </table>
-    </div>
+            
+        
+
 </body>
     
 <footer>
